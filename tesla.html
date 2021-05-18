@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>TopCar</title>
+    <link rel="shortcut icon" href="assets/img/icons8_car_rental_16.png">
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/js/myjs.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet"
+        href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="assets/css/tesla.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic-Main.css">
+
+    <!--
+        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+       
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+       
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+        -->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/vue">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    <link rel="stylesheet" href="https://gstatic.com/firebasejs/4.0.0/firebase.js">
+    <link rel="stylesheet" href="https://unpkg.com/vuefire/dist/vuefire.js">
+</head>
+
+<body>
+    <section class="d-flex flex-column justify-content-between" id="hero">
+        <div id="hero-top">
+            <nav class="navbar navbar-light navbar-expand-md">
+                <div class="container-fluid">
+
+
+                    <a class="navbar-brand" href="index.php"></a><button data-toggle="collapse" class="navbar-toggler"
+                        data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
+                            class="navbar-toggler-icon"></span></button>
+                    <section class="collapse navbar-collapse" id="navcol-1">
+                        <ul class="nav navbar-nav mx-auto">
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="tesla.html">TESLA</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="mercedes.html">MERCEDES-BENZ</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="audi.html">AUDI</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item" role="presentation">
+                                <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                </form>
+                            </li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" href="SignIn.php">CUENTA</a></li>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+        </div>
+        </nav>
+        <article class="title">
+            <h1 class="text-title" data-aos="fade-up" data-aos-duration="700" data-aos-once="true" id="title">Tesla Model 3</h1>
+        </article>
+
+        </div>
+        <div id="hero-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 offset-2">
+                        <p style="color: rgba(255,255,255,0.71);">El Model 3, diseñado para funcionar con energía eléctrica, cuenta con un motor dual con tracción integral, aceleración rápida, alta autonomía y carga rápida.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" data-aos="fade-up" data-aos-delay="400">
+                        <p class="p-top"><i class="icon ion-Velocidadometer"></i>&nbsp;1.9s</p>
+                        <p class="p-bottom">0-60 kmh</p>
+                    </div>
+                    <div class="col with-borders" data-aos="fade-up" data-aos-delay="500">
+                        <p class="p-top">+250kmh</p>
+                        <p class="p-bottom">Velocidad Máxima</p>
+                    </div>
+                    <div class="col" data-aos="fade-up" data-aos-delay="600">
+                        <p class="p-top">620km</p>
+                        <p class="p-bottom">Autonomía</p>
+                    </div>
+                    <div class="col align-self-center" data-aos="fade" data-aos-delay="700"><button
+                            class="btn btn-primary btn-block reserve-button" type="button">Reservar</button></div>
+                </div>
+                <div class="row">
+                    <div class="col"><button class="btn btn-link btn-block arrow-button" type="button"><i
+                                class="icon ion-ios-arrow-down"></i></button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="video-and-stats">
+
+    <div>
+        <iframe src="https://player.vimeo.com/video/161225080?&autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1&#t=0s" style="text-align: center;" width="1400" height="900" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+    <section data-aos="fade-up" data-aos-duration="700" id="video-and-stats">
+
+
+        <div id="stats">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Especificaciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="cell-left">Aceleración 0-60 kmh</td>
+                        <td class="cell-right" style="color: rgb(255,255,255);">1.9 segundos</td>
+                    </tr>
+                    <tr>
+                        <td class="cell-left">Aceleración 0-100 kmh</td>
+                        <td class="cell-right" style="color: rgb(255,255,255);">4.2 segundos</td>
+                    </tr>
+                    <tr>
+                        <td class="cell-left">Aceleración 1/4 Milla</td>
+                        <td class="cell-right" style="color: rgb(255,255,255);">8.8 segundos</td>
+                    </tr>
+                    <tr>
+                        <td class="cell-left">Velocidad máxima</td>
+                        <td class="cell-right" style="color: rgb(255,255,255);">250 kmh</td>
+                    </tr>
+                    <tr>
+                        <td class="cell-left">Torque</td>
+                        <td class="cell-right" style="color: rgb(255,255,255);">10,000 Nm</td>
+                    </tr>
+                    <tr>
+                        <td class="cell-left">Autonomía</td>
+                        <td class="cell-right" style="color: rgb(255,255,255);">620 km</td>
+                    </tr>
+                    <tr>
+                        <td class="cell-left">Asientos</td>
+                        <td class="cell-right" style="color: rgb(255,255,255);">5</td>
+                    </tr>
+                    <tr>
+                        <td class="cell-left">Puertas</td>
+                        <td class="cell-right" style="color: rgb(255,255,255);">5</td>
+                    </tr>
+                    <tr>
+                        <td class="cell-left">Tracción</td>
+                        <td class="cell-right" style="color: rgb(255,255,255);">Completa</td>
+                    </tr>
+                    <tr>
+                        <td class="cell-left">Precio</td>
+                        <td class="cell-right" style="color: rgb(255,255,255);">€200.000</td>
+                    </tr>
+                    <tr>
+                        <td class="cell-left">Precio renting</td>
+                        <td class="cell-right" style="color: rgb(255,255,255);">$2.000/mes</td>
+                    </tr>
+ 
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <div class="footer-basic-main">
+        <footer>
+
+            <!--<button class="btn btn-primary reserve-button" type="button">Reserve Now</button>-->
+            <ul class="list-inline" style="color: rgb(255,255,255);font-size: 12px;">
+                <li class="list-inline-item"><a href="#">Top Car © 2021&nbsp;</a></li>
+                <li class="list-inline-item"><a href="#">Privacidad legal </a></li>
+                <li class="list-inline-item"><a href="#">Contacto</a></li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
+</body>
+
+
+
+</html>

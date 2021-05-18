@@ -1,0 +1,774 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+#hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../assets/img/M333.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+}
+
+@media (min-width: 760px) {
+    #hero {
+        background-image: url("../../assets/img/M333.jpg");
+    }
+}
+
+
+.title-tesla {
+    display: table;
+    text-align: center;
+}
+
+.text-title-tesla{
+    position: absolute;
+    margin: 200px 0;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+
+#mercedesMain {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../assets/img/mercedes-clase-e-220-scaled.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    position: relative;
+}
+
+.boton-mercedes{
+    
+    position: absolute;
+    bottom: 0;
+    vertical-align: middle;
+    margin-bottom: 80px;
+   
+}
+.text-center{
+    margin: 200px 0px;
+}
+@media (min-width: 760px) {
+    #mercedesMain {
+        background-image: url("../../assets/img/mercedes-clase-e-220-scaled.jpeg");
+    }
+}
+
+#audiMain {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../assets/img/audi_rs_7_sportback_2020_5k_2-HD.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+    position: relative;
+}
+
+.boton-audi{
+    
+    position: absolute;
+    bottom: 0;
+    vertical-align: middle;
+    margin-bottom: 80px;
+   
+}
+
+@media (min-width: 760px) {
+    #audiMain {
+        background-image: url("../../assets/img/audi_rs_7_sportback_2020_5k_2-HD.jpg");
+    }
+}
+
+.navbar {
+    position: sticky;
+    z-index: 1;
+}
+
+.navbar-light .navbar-brand {
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    width: 200px;
+    background-position: center;
+    background-size: 80%;
+    height: 40px;
+}
+
+#navcol-1 {
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(34, 34, 34);
+}
+
+#title {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#hero-bottom {
+    color: #fff;
+}
+
+.btn {
+    margin: 80px 0;
+    padding: 8px 50px;
+}
+
+.boton {
+    display: table;
+    text-align: center;
+}
+
+.boton .btn {
+    border: none;
+    background: rgb(34, 34, 34);
+    vertical-align: bottom;
+    opacity: 0.7;
+    
+}
+
+.boton-mercedes .btn{
+    border: none;
+    background: rgb(34, 34, 34);
+    display: table-cell;
+    vertical-align: bottom;
+    opacity: 0.7;
+}
+
+.boton-audi .btn{
+    border: none;
+    background: rgb(34, 34, 34);
+    display: table-cell;
+    vertical-align: bottom;
+    opacity: 0.7;
+}
+.services {
+    /* padding: 5em 0; */
+    background: white;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.service_top {
+    text-align: center;
+}
+
+.service_top h3 {
+    text-transform: uppercase;
+    color: #555;
+    font-size: 1.2em;
+}
+
+.service_top p {
+    color: #666;
+    font-size: 0.85em;
+    border-bottom: 1px solid #B9B9B9;
+    margin-bottom: 7em;
+    padding-bottom: 3em;
+}
+
+
+/*--features--*/
+
+.features {
+    padding: 5em 0;
+    background: url(../images/fea.jpg) no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+}
+
+.feature_top {
+    text-align: center;
+}
+
+.feature_top h3 {
+    color: #fff;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 2em;
+}
+
+i.phone {
+    width: 507px;
+    height: 256px;
+    display: inline-block;
+    background: url(../images/vertical_iphone.png) no-repeat;
+}
+
+span.feature {
+    font-weight: 300;
+}
+
+
+/*--work--*/
+
+.service_grid {
+    margin-bottom: 2em;
+}
+
+i.one {
+    width: 40px;
+    height: 51px;
+    background: url("../img/car_50px.png") no-repeat -32px -365px;
+    display: inline-block;
+}
+
+.post_block {
+    background: #19436a;
+    padding: 3em 2em;
+}
+
+h5.m_1 {
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 2em 0 1em;
+}
+
+h5.m_1 span {
+    color: #FFC300;
+    text-decoration: none;
+}
+
+
+
+p.m_2 {
+    color: #fff;
+    font-size: 0.8125em;
+    line-height: 1.8em;
+}
+
+.post_block1 {
+    background: #108588;
+    padding: 3em 2em;
+}
+
+.post_block2 {
+    background: #05ceaa;
+    padding: 3em 2em;
+}
+
+i.two {
+    width: 50px;
+    height: 50px;
+    background: url(../images/img-sprite.png) no-repeat -111px -364px;
+    display: inline-block;
+}
+
+i.three {
+    width: 50px;
+    height: 50px;
+    background: url(../images/img-sprite.png) no-repeat -193px -364px;
+    display: inline-block;
+}
+
+.post_block:hover i.one,
+.post_block1:hover i.two,
+.post_block2:hover i.three {
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -o-transition: 0.8s;
+    transition: 0.8s;
+}
+
+.info-renting,
+.opiniones {
+    margin-top: 10px;
+    padding-top: 5em;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    text-align: center;
+}
+
+.opiniones {
+    margin-top: 10px;
+    padding: 5em 0;
+    background: rgb(207, 217, 241);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    text-align: center;
+}
+
+.caja {
+    border: 1px solid black;
+    padding: 3em 2em;
+}
+
+.form-inline .btn {
+    border: none;
+    padding: auto;
+}
+
+.support .mensaje {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    z-index: 1;
+    background: #3e6ae1;
+    border: 3px solid #f1f1f1;
+    font-size: 13px;
+}
+
+.support .mensaje .text-support {
+    color: white;
+}
+
+
+/*
+
+FINNNNN
+
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+
+
+/* The popup chat - hidden by default */
+
+.chat-popup {
+    display: none;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 60px 60px 60px 60px;
+    z-index: 1;
+    background: #3e6ae1;
+    border: 3px solid #f1f1f1;
+    font-size: 13px;
+}
+
+
+/* Add styles to the form container */
+
+
+/* Full-width textarea */
+
+.form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+}
+
+
+/* When the textarea gets focus, do something */
+
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+/* Set a style for the submit/send button */
+
+.form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+
+/* Add a red background color to the cancel button */
+
+.form-container .cancel {
+    background-color: red;
+}
+
+
+/* Add some hover effects to buttons */
+
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+.allUsersList {
+    width: 300px;
+    margin: 20px;
+}
+
+.allUsersList .card-header {
+    background: #683db8;
+    color: #FFF;
+    padding: 10px;
+}
+
+.allUsersList .image img {
+    border-radius: 16px;
+}
+
+.usersChatList {
+    position: absolute;
+    width: 250px;
+    bottom: 0;
+    margin-bottom: 0;
+    right: 360px;
+}
+
+.show {
+    display: block;
+}
+
+.thumb-user-list {
+    display: none;
+}
+
+.thumb-user-list .image img {
+    border-radius: 30px;
+}
+
+.usersChatList .card-header {
+    background: #3e6ae1;
+    font-size: 13px;
+}
+
+.chatBox {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 0px 0px 0px 0px;
+    z-index: 1;
+    font-size: 13px;
+}
+
+.chat-content {
+    overflow: auto;
+    height: 400px;
+    width: 300px;
+}
+
+.chatBox .card {
+    border-radius: 4px;
+}
+
+.chatBox .card-header {
+    background: #3e6ae1;
+}
+
+.card-header .text-head .cerrar {
+    position: absolute;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.header-title {
+    height: 50px;
+}
+
+.card-header-title i {
+    font-size: 10px;
+    color: #32e4cd;
+    margin-right: 6px;
+}
+
+.card-header .card-header-title {
+    color: #FFF;
+    max-width: 100%;
+}
+
+.chat-content small {
+    margin: 0;
+}
+
+.chat-content p {
+    background: #ecf1f8;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 0;
+}
+
+.my-content .media-content {
+    width: 80%;
+}
+
+.my-content .message {
+    float: right;
+    background: #683db8;
+    color: #FFF;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+
+.my-content .chat-content small {
+    float: right;
+}
+
+.my-content small {
+    display: block;
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.chat-textarea {
+    font-size: 14px;
+    padding: 8px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+}
+
+.chat-message-group {
+    margin-right: 10px;
+}
+
+.chat-messages {
+    margin-left: 10px;
+}
+
+.chat-message-group .chat-thumb {
+    float: left;
+    width: 20%;
+}
+
+.chat-message-group .chat-messages {
+    float: left;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.chat-message-group .message {
+    float: left;
+    padding: 10px;
+    background: #ecf1f8;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+.chat-messages .from {
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 11px;
+}
+
+.chat-thumb img {
+    border-radius: 40px;
+}
+
+.writer-user .chat-messages {
+    float: right;
+    width: 100%;
+}
+
+.writer-user .chat-messages .message {
+    float: right;
+    background: #3e6ae1;
+    color: #FFF;
+}
+
+.writer-user .chat-messages .from {
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+.chat-message-group .typing {
+    float: left;
+}
+
+.chatBox .card-header-icon i {
+    color: #FFF;
+    font-size: 13px;
+}
+
+
+/* CSSS */
+
+.outside-box {
+    height: 100px;
+    background: #F8C;
+    width: 200px;
+    margin: 20px;
+    overflow: auto;
+}
+
+.outside-box .content-insider {
+    height: 300px;
+    background: #C9C;
+}
+
+
+/* CSS Spinner */
+
+.spinner {
+    margin: 0 30px;
+    width: 70px;
+    text-align: center;
+}
+
+.spinner>div {
+    width: 4px;
+    height: 4px;
+    background-color: #888;
+    border-radius: 100%;
+    display: inline-block;
+    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0)
+    }
+    40% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@keyframes sk-bouncedelay {
+    0%,
+    80%,
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    40% {
+        -webkit-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+}
+
+.card-header-title img {
+    border-radius: 40px;
+}
+
+.card-header .cerrar {
+    top: 1;
+    right: 0;
+    float: right;
+    text-align: right;
+    background-color: Transparent;
+    border-style: none;
+    margin-bottom: 5px;
+}
+
+.card-header .text-head {
+    font-size: 20px;
+    color: white;
+}
+
+.card-footer .btn-send {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 25px;
+}
+
+
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+  transform: translateX(50%);
+}
+
+.carousel-inner .carousel-item-left.active, 
+.carousel-inner .carousel-item-prev {
+  transform: translateX(-50%);
+}
+  
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+  
+}
+.movie-img {
+	height:150px;width: 200px;background-color:  aqua;overflow: hidden;background-image: url("https://i.hizliresim.com/mX07R4.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	object-fit: fill;
+}
+
+.movie-title {
+	height: 40px; width:150px;background-color: black;overflow: hidden;
+}
+
+
